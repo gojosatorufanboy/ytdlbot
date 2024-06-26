@@ -18,7 +18,7 @@ APP_ID: int = int(os.getenv("APP_ID", 5216351))
 APP_HASH = os.getenv("APP_HASH", "cd0c33895377d998e2ceba74f7dd5960")
 TOKEN = os.getenv("TOKEN", "7470793269:AAEMDnwwHQapCAWj8sbXNf52VXKGB9xp31Y")
 
-REDIS = os.getenv("REDIS", "redis-18714.c264.ap-south-1-1.ec2.redns.redis-cloud.com:18714")
+REDIS = os.getenv("REDIS", "redis")
 
 TG_PREMIUM_MAX_SIZE = 4000 * 1024 * 1024
 TG_NORMAL_MAX_SIZE = 2000 * 1024 * 1024
@@ -40,9 +40,9 @@ REQUIRED_MEMBERSHIP: str = os.getenv("REQUIRED_MEMBERSHIP", "")
 ENABLE_CELERY = os.getenv("ENABLE_CELERY", False)
 BROKER = os.getenv("BROKER", f"redis://{REDIS}:6379/1")
 
-MYSQL_HOST = os.getenv("MYSQL_HOST", "mysql")
-MYSQL_USER = os.getenv("MYSQL_USER", "root")
-MYSQL_PASS = os.getenv("MYSQL_PASS", "root")
+MYSQL_HOST = os.getenv("MYSQL_HOST", "mysql-129dfe72-wwpager-dde2.c.aivencloud.com")
+MYSQL_USER = os.getenv("MYSQL_USER", "avnadmin")
+MYSQL_PASS = os.getenv("MYSQL_PASS", "AVNS_Td0iXA8FDP-OVaoN_TU")
 
 AUDIO_FORMAT = os.getenv("AUDIO_FORMAT")
 ARCHIVE_ID = os.getenv("ARCHIVE_ID")
