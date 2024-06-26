@@ -18,7 +18,7 @@ APP_ID: int = int(os.getenv("APP_ID", 5216351))
 APP_HASH = os.getenv("APP_HASH", "cd0c33895377d998e2ceba74f7dd5960")
 TOKEN = os.getenv("TOKEN", "7470793269:AAEMDnwwHQapCAWj8sbXNf52VXKGB9xp31Y")
 
-REDIS = os.getenv("REDIS", "redis")
+REDIS = os.getenv("REDIS", "redis-18714.c264.ap-south-1-1.ec2.redns.redis-cloud.com:18714")
 
 TG_PREMIUM_MAX_SIZE = 4000 * 1024 * 1024
 TG_NORMAL_MAX_SIZE = 2000 * 1024 * 1024
@@ -27,7 +27,7 @@ TG_NORMAL_MAX_SIZE = 2000 * 1024 * 1024
 
 EXPIRE = 24 * 3600
 
-ENABLE_VIP = os.getenv("VIP", True)
+ENABLE_VIP = os.getenv("VIP", False)
 OWNER = os.getenv("OWNER", "maheshsirop")
 
 # limitation settings
