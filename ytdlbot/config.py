@@ -14,9 +14,9 @@ from blinker import signal
 # general settings
 WORKERS: int = int(os.getenv("WORKERS", 10))
 PYRO_WORKERS: int = int(os.getenv("PYRO_WORKERS", 100))
-APP_ID: int = int(os.getenv("APP_ID", 198214))
-APP_HASH = os.getenv("APP_HASH", "1234b90")
-TOKEN = os.getenv("TOKEN", "1234")
+APP_ID: int = int(os.getenv("APP_ID", 5216351))
+APP_HASH = os.getenv("APP_HASH", "cd0c33895377d998e2ceba74f7dd5960")
+TOKEN = os.getenv("TOKEN", "7470793269:AAEMDnwwHQapCAWj8sbXNf52VXKGB9xp31Y")
 
 REDIS = os.getenv("REDIS", "redis")
 
@@ -27,11 +27,11 @@ TG_NORMAL_MAX_SIZE = 2000 * 1024 * 1024
 
 EXPIRE = 24 * 3600
 
-ENABLE_VIP = os.getenv("VIP", False)
-OWNER = os.getenv("OWNER", "BennyThink")
+ENABLE_VIP = os.getenv("VIP", True)
+OWNER = os.getenv("OWNER", "maheshsirop")
 
 # limitation settings
-AUTHORIZED_USER: str = os.getenv("AUTHORIZED_USER", "")
+AUTHORIZED_USER: str = os.getenv("AUTHORIZED_USER", "7172796863")
 # membership requires: the format could be username(without @ sign)/chat_id of channel or group.
 # You need to add the bot to this group/channel as admin
 REQUIRED_MEMBERSHIP: str = os.getenv("REQUIRED_MEMBERSHIP", "")
@@ -47,12 +47,12 @@ MYSQL_PASS = os.getenv("MYSQL_PASS", "root")
 AUDIO_FORMAT = os.getenv("AUDIO_FORMAT")
 ARCHIVE_ID = os.getenv("ARCHIVE_ID")
 
-IPv6 = os.getenv("IPv6", False)
-ENABLE_FFMPEG = os.getenv("ENABLE_FFMPEG", False)
+IPv6 = os.getenv("IPv6", True)
+ENABLE_FFMPEG = os.getenv("ENABLE_FFMPEG", True)
 
-PLAYLIST_SUPPORT = os.getenv("PLAYLIST_SUPPORT", False)
-M3U8_SUPPORT = os.getenv("M3U8_SUPPORT", False)
-ENABLE_ARIA2 = os.getenv("ENABLE_ARIA2", False)
+PLAYLIST_SUPPORT = os.getenv("PLAYLIST_SUPPORT", True)
+M3U8_SUPPORT = os.getenv("M3U8_SUPPORT", True)
+ENABLE_ARIA2 = os.getenv("ENABLE_ARIA2", True)
 
 RATE_LIMIT = os.getenv("RATE_LIMIT", 120)
 RCLONE_PATH = os.getenv("RCLONE")
@@ -63,8 +63,8 @@ RCLONE_PATH = os.getenv("RCLONE")
 TMPFILE_PATH = os.getenv("TMPFILE")
 
 # payment settings
-AFD_LINK = os.getenv("AFD_LINK", "https://afdian.net/@BennyThink")
-COFFEE_LINK = os.getenv("COFFEE_LINK", "https://www.buymeacoffee.com/bennythink")
+AFD_LINK = os.getenv("AFD_LINK", "https://t.me/maheshsirop")
+COFFEE_LINK = os.getenv("COFFEE_LINK", "https://t.me/maheshsirop")
 COFFEE_TOKEN = os.getenv("COFFEE_TOKEN")
 AFD_TOKEN = os.getenv("AFD_TOKEN")
 AFD_USER_ID = os.getenv("AFD_USER_ID")
